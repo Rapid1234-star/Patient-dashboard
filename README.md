@@ -1,8 +1,11 @@
-# Jarurat Care — Patient Records Dashboard
+# 🩺 Jarurat Care — Patient Records Dashboard
 
 An interactive React app to manage and explore patient records. Built with Vite, React Router, and plain CSS. Simple, fast, and responsive.
 
-## Quick Start
+## 🧑‍💻 Live Demo
+
+
+##  Quick Start
 
 Prerequisites: Node.js 18+
 
@@ -14,7 +17,7 @@ npm run dev
 
 Open `http://localhost:5173/` and use the navbar to navigate.
 
-## Try It Out (Interactive Walkthrough)
+## 🧭 Try It Out (Interactive Walkthrough)
 
 1) Navigate pages
 - Click `Home`, `Patients`, and `About` in the header.
@@ -35,7 +38,7 @@ Open `http://localhost:5173/` and use the navbar to navigate.
 - The app shows a loading message during data fetch.
 - To simulate an error, toggle your browser DevTools Network to `Offline` and reload; an error banner will appear.
 
-## Features
+## 💡 Features
 
 - Responsive card/grid layout for patient list (Name, Age, Contact)
 - Search by name with instant filtering
@@ -43,13 +46,13 @@ Open `http://localhost:5173/` and use the navbar to navigate.
 - Add New Patient with local state (no backend)
 - Loading and error messaging for the fetch lifecycle
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - React + Vite
 - React Router (`react-router-dom`)
 - CSS (no frameworks; easy to swap for Tailwind/Bootstrap if desired)
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 patient-dashboard/
@@ -68,31 +71,18 @@ patient-dashboard/
 └── package.json
 ```
 
-## Data Source
+## 🌐 Data Source
 
 - Uses `https://jsonplaceholder.typicode.com/users` to fetch demo users.
 - `age` is synthesized since the API doesn’t include it.
 
 To point to a different source, update the `fetch` URL in `src/pages/Patients.jsx`.
 
-## Build & Preview
+## 🏗️ Build & Preview
 
 ```bash
 npm run build
 npm run preview
 ```
-
-## Accessibility
-
-- Modal closes on `Esc`.
-- Buttons and inputs have clear focus and labels.
-
-## Troubleshooting
-
-- Port busy? Run `npm run dev -- --port 5174` and open `http://localhost:5174/`.
-- Node version: ensure Node 18+ for Vite 7.
-- If the list is empty, check your network or API availability.
-
-## Notes
 
 - React Compiler is not enabled by default. See the official docs if you plan to enable it for production workflows.
