@@ -4,7 +4,7 @@ An interactive React app to manage and explore patient records. Built with Vite,
 
 ## 🧑‍💻 Live Demo
 
-https://patient-dashboard-phi-ruby.vercel.app/
+https://patient-dashboard-five.vercel.app/
 
 
 ##  Quick Start
